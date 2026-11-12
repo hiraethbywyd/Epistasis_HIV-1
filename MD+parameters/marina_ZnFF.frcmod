@@ -1,0 +1,54 @@
+Parameter set adjusted into ZAFF.frcmod but using https://pubs.acs.org/doi/10.1021/acs.jcim.9b00407 and https://pubs.acs.org/doi/10.1021/acsomega.0c01337 instead
+
+MASS
+NZ  14.01000	sp2 N in 5 memb.ring w/LP (HIS,ADE,GUA)
+SZ  32.06000	S in cystine;
+OZ  16.06000	O in Glu/Asp Zn;
+ZN  65.40000	Zn atom
+
+BOND
+CR-NZ  488.00   1.335
+CV-NZ  410.00   1.394
+CC-NZ  410.00   1.394
+CT-SZ  237.00   1.810
+CO-OZ  656.0   1.2500
+
+ANGL
+H1-CT-SZ   50.000     109.500
+CT-CT-SZ   50.000     108.600
+CT-CC-NZ   70.000     120.000
+H5-CR-NZ   35.000     120.000
+H4-CV-NZ   35.000     120.000
+CR-NZ-CV   70.000     117.000
+NA-CR-NZ   70.000     120.000
+CC-CV-NZ   70.000     120.000
+CW-CC-NZ   70.000     120.000
+CC-NZ-CR   70.000     117.000
+OZ-CO-O2    80.0      126.00
+2C-CO-OZ    70.0      117.00
+XC-CT-SZ    50.0      108.60    AA cys (was CT-CT-SH)
+CT-C -OZ           1   117.000    585.760 ;
+OZ-C -O2           1   126.000    669.440 ; AA GLU            (SCH JPC 79,2379)
+
+DIHE
+X -CB-NZ-X    2    5.100       180.000           2.000
+X -CC-NZ-X    2    4.800       180.000           2.000
+X -CR-NZ-X    2   10.000       180.000           2.000
+X -CV-NZ-X    2    4.800       180.000           2.000
+X -OZ-C -O2    4    180.00       43.93200     2    ; JCC,7,(1986),230
+X -O2-C -OZ    4    180.00       43.93200     2    ; JCC,7,(1986),230
+HC-2C-CO-OZ   1    0.031       180.0            -4.
+HC-2C-CO-OZ   1    0.000         0.0            -3.
+HC-2C-CO-OZ   1    0.769       180.0            -2.
+HC-2C-CO-OZ   1    0.000         0.0             1.
+2C-2C-CO-OZ   1    0.064         0.0            -4.
+2C-2C-CO-OZ   1    0.390       180.0             2.
+
+IMPR
+NZ-CW-CC-CT       1.100        180.000       2.000
+
+NONB
+ZN     1.10    0.013
+SZ     2.00    0.250
+NZ     1.82    0.170
+OZ     1.52    0.250
